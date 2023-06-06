@@ -1,0 +1,26 @@
+// Font
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import 'reset';
+@import 'vars';
+@import 'header';
+@import 'buttons';
+@import 'about';
+@import 'advices';
+
+
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 197px;
+  padding-right: 197px;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: $main-color;
+  background-color: #FAFAFA;
+}

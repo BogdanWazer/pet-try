@@ -1,0 +1,376 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.header__img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  padding-right: 132px;
+}
+.header__nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+}
+.header__nav-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.header__title {
+  margin-top: 80px;
+  margin-bottom: 35px;
+  max-width: 509px;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+}
+.header__subtitle {
+  color: #737373;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  max-width: 376px;
+}
+
+.button-row {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.card__item {
+  background-color: #fff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  padding: 35px 40px;
+}
+.card__item:last-child {
+  background-color: #0d5c63;
+  color: #fff;
+}
+.card__img {
+  padding-bottom: 10px;
+}
+.card__title {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.card__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.button__orange {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 37px;
+  background-color: #ff7b47;
+  border: none;
+}
+
+.button__text-white {
+  display: flex;
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  padding: 10px 36px;
+}
+
+.button-transparent {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 37px;
+  background-color: transparent;
+  border: 1px solid #0d5c63;
+}
+
+.button__text-green {
+  display: flex;
+  color: #0d5c63;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  padding: 10px 36px;
+}
+
+.about {
+  text-align: center;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  padding-bottom: 10px;
+}
+.about__subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-bottom: 50px;
+  color: #737373;
+}
+
+.about-card {
+  gap: 38px;
+}
+.about-card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.about-card__item {
+  width: 230px;
+  padding: 40px 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.about-card__img {
+  margin-bottom: 10px;
+}
+.about-card__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+.about-card__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+
+.advices {
+  padding-top: 80px;
+  text-align: center;
+}
+.advices__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  padding-bottom: 10px;
+}
+.advices__subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-bottom: 50px;
+  color: #737373;
+}
+
+.advices-card {
+  gap: 38px;
+}
+.advices-card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.advices-card__item {
+  text-align: left;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.advices-card__title {
+  padding: 0 67px 15px 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding-bottom: 15px;
+}
+.advices-card__text {
+  padding: 0 42px 30px 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 197px;
+  padding-right: 197px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #252b42;
+  background-color: #FAFAFA;
+}/*# sourceMappingURL=main.css.map */
