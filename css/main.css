@@ -360,6 +360,75 @@ a {
   padding-bottom: 50px;
 }
 
+.who-we-are__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.who-we-are__subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-bottom: 50px;
+  color: #737373;
+  margin-bottom: 100px;
+}
+
+.who-we-are-content {
+  display: flex;
+  text-align: left;
+}
+.who-we-are-content__video {
+  margin-right: 120px;
+}
+
+.who-we-are-content-text-column__header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+.who-we-are-content-text-column__subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+  margin-bottom: 50px;
+}
+
+.who-we-are-content-text-preferences {
+  display: flex;
+  flex-direction: column;
+}
+.who-we-are-content-text-preferences__row {
+  display: flex;
+  margin-bottom: 30px;
+}
+.who-we-are-content-text-preferences__icon {
+  margin-right: 20px;
+}
+.who-we-are-content-text-preferences__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.who-we-are-content-text-preferences__subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
 .container {
   max-width: 1440px;
   margin-left: auto;
@@ -372,5 +441,5 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #252b42;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }/*# sourceMappingURL=main.css.map */

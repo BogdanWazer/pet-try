@@ -7,8 +7,7 @@
 @import 'buttons';
 @import 'about';
 @import 'advices';
-
-
+@import 'who-we-are';
 
 .container {
   max-width: 1440px;
@@ -22,5 +21,5 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: $main-color;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
