@@ -1,0 +1,13 @@
+.brands {
+  position: relative;
+  padding: 56px 0;
+}
+
+.brands-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  &__item {
+  }
+}

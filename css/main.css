@@ -383,6 +383,7 @@ a {
 .who-we-are-content {
   display: flex;
   text-align: left;
+  margin-bottom: 100px;
 }
 .who-we-are-content__video {
   margin-right: 120px;
@@ -427,6 +428,42 @@ a {
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #737373;
+}
+
+.brands {
+  position: relative;
+  padding: 56px 0;
+}
+
+.brands-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscribe__wrapper {
+  width: 700px;
+  background-color: #17213c;
+  border-radius: 2px;
+  padding: 30px 40px 30px 50px;
+}
+.subscribe__row {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #fff;
 }
 
 .container {
